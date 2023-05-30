@@ -20,9 +20,9 @@ Check out the live demo of the Typing Practice Web Application [here](https://sa
 
 To run the Typing Practice Web Application locally, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Open the `index.html` file in your web browser.
-3. Modify the home row characters in the JavaScript code. Open the `script.js` file and find the line `var text = "asdfghjkl;";`. Replace the characters within the quotes with your desired home row characters. Save the file.
+1. Clone the repository: `git clone https://github.com/suzonsAm/Typing-Practice-Master.git`
+2. Modify the home row characters in the JavaScript code. Open the `script.js` file and find the line `var text = "asdfghjkl;";`. Replace the characters within the quotes with your desired home row characters. Save the file.
+3. Open the `index.html` file in your web browser.
 
 ## Usage
 

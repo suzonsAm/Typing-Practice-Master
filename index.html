@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Practice Typing</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/js/script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+  <button id="themeButton" onclick="toggleTheme()">
+    <i id="themeIcon" class="ri-moon-line"></i>
+  </button>
+  <h1></h1>
+    <h1>
+      <span id="randomLetter"></span>
+    </h1>
+  <div id="clockContainer">
+    <span id="clock"></span>
+  </div>
+  <div id="chartContainer">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <p>Type on the keyboard to track your CPM (Characters Per Minute) over time:Average speed- 200 cpm, Productive speed-300 cpm.</p>
+
+  <script>
+    var isDark = false;
+    var themeIcon = document.getElementById("themeIcon");
+
+    function toggleTheme() {
+        var body = document.body;
+        var themeButton = document.getElementById("themeButton");
+
+        if (isDark) {
+            body.style.backgroundColor = "white";
+            themeIcon.className = "ri-moon-line";
+            themeIcon.style.color = "black";
+            isDark = false;
+        } else {
+            body.style.backgroundColor = "black";
+            body.style.color = "white";
+            themeIcon.className = "ri-sun-line";
+            themeIcon.style.color = "white";
+            isDark = true;
+        }
+    }
+</script>
+
 </body>
 </html>

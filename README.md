@@ -1,6 +1,6 @@
 # Typing Practice Web Application
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://samsprojectsdemot2twns.on.drv.tw/practice-typing/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://samsprojectsdemot2twns.on.drv.tw/practice%20typing/)
 
 The Typing Practice Web Application is a user-friendly tool designed to help users improve their typing skills through targeted practice sessions. With a variety of exercises, real-time feedback, and customizable options, this application aims to enhance typing speed, accuracy, and overall proficiency.
 
